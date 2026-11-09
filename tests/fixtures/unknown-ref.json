@@ -1,0 +1,327 @@
+{
+  "id": "plan-home-3x30-start",
+  "title": "גוף מלא ביתי, 3 ימים, 30 דקות",
+  "weeks": 1,
+  "level": "beginner-intermediate",
+  "goal": "health",
+  "days": [
+    {
+      "id": "d1",
+      "title": "יום 1: רגליים ודחיפה",
+      "focus": "רגליים, חזה, ליבה",
+      "estMinutes": 30,
+      "exercises": [
+        {
+          "id": "d1-e1",
+          "ref": "ex999",
+          "name": "צעידה במקום",
+          "type": "time",
+          "sets": 1,
+          "durationSec": 90,
+          "restSec": 0,
+          "equipment": [],
+          "cues": "קצב עולה בהדרגה, נחיתה שקטה"
+        },
+        {
+          "id": "d1-e2",
+          "ref": "ex39",
+          "name": "חתול-פרה",
+          "type": "reps",
+          "sets": 1,
+          "reps": 10,
+          "restSec": 0,
+          "equipment": [],
+          "cues": "תנועה איטית עם הנשימה"
+        },
+        {
+          "id": "d1-e3",
+          "ref": "ex01",
+          "name": "סקוואט משקל גוף",
+          "type": "reps",
+          "sets": 3,
+          "reps": 12,
+          "restSec": 45,
+          "equipment": [],
+          "cues": "ברכיים בכיוון הבהונות, חזה פתוח",
+          "easier": "קימה וישיבה מכיסא",
+          "harder": "עצירה 2 שניות למטה"
+        },
+        {
+          "id": "d1-e4",
+          "ref": "ex16",
+          "name": "שכיבות סמיכה על ברכיים",
+          "type": "reps",
+          "sets": 3,
+          "reps": 8,
+          "restSec": 45,
+          "equipment": [],
+          "cues": "קו ישר מכתפיים לברכיים",
+          "easier": "שכיבות סמיכה על קיר",
+          "harder": "שכיבות סמיכה מלאות"
+        },
+        {
+          "id": "d1-e5",
+          "ref": "ex04",
+          "name": "גשר ישבן",
+          "type": "reps",
+          "sets": 3,
+          "reps": 15,
+          "restSec": 40,
+          "equipment": [],
+          "cues": "דחיפה בעקבים, בלי קימור הגב",
+          "easier": "טווח קצר",
+          "harder": "גשר ברגל אחת"
+        },
+        {
+          "id": "d1-e6",
+          "ref": "ex29",
+          "name": "Dead bug",
+          "type": "reps_each_side",
+          "sets": 3,
+          "reps": 8,
+          "restSec": 40,
+          "equipment": [],
+          "cues": "גב תחתון צמוד לרצפה, תנועה איטית",
+          "easier": "רק רגליים",
+          "harder": "משקל קל ביד"
+        },
+        {
+          "id": "d1-e7",
+          "ref": "ex27",
+          "name": "פלאנק",
+          "type": "time",
+          "sets": 3,
+          "durationSec": 30,
+          "restSec": 40,
+          "equipment": [],
+          "cues": "קו ישר, אגן לא צונח",
+          "easier": "על ברכיים",
+          "harder": "פלאנק עם הרמת רגל"
+        },
+        {
+          "id": "d1-e8",
+          "ref": "ex41",
+          "name": "מתיחת מכופפי ירך",
+          "type": "time_each_side",
+          "sets": 1,
+          "durationSec": 30,
+          "restSec": 0,
+          "equipment": [],
+          "cues": "אגן מקופל פנימה, גו זקוף"
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "title": "יום 2: ירך אחורית וגב",
+      "focus": "רגליים, גב, ליבה",
+      "estMinutes": 30,
+      "exercises": [
+        {
+          "id": "d2-e1",
+          "ref": "ex35",
+          "name": "צעידה במקום",
+          "type": "time",
+          "sets": 1,
+          "durationSec": 60,
+          "restSec": 0,
+          "equipment": [],
+          "cues": "קצב עולה בהדרגה"
+        },
+        {
+          "id": "d2-e2",
+          "ref": "ex40",
+          "name": "מתיחת \"הכי גדולה בעולם\"",
+          "type": "reps_each_side",
+          "sets": 1,
+          "reps": 5,
+          "restSec": 0,
+          "equipment": [],
+          "cues": "לאנג' עמוק וסיבוב החזה"
+        },
+        {
+          "id": "d2-e3",
+          "ref": "ex03",
+          "name": "לאנג' אחורי",
+          "type": "reps_each_side",
+          "sets": 3,
+          "reps": 8,
+          "restSec": 45,
+          "equipment": [],
+          "cues": "צעד אחורה, גו זקוף, ברך קדמית יציבה",
+          "easier": "החזקה בקיר",
+          "harder": "סקוואט בולגרי"
+        },
+        {
+          "id": "d2-e4",
+          "ref": "ex09",
+          "name": "הטיית ירכיים (Good morning)",
+          "type": "reps",
+          "sets": 3,
+          "reps": 12,
+          "restSec": 40,
+          "equipment": [],
+          "cues": "גב ישר, דחיפת אגן אחורה",
+          "easier": "טווח קצר",
+          "harder": "דדליפט רגל אחת"
+        },
+        {
+          "id": "d2-e5",
+          "ref": "ex21",
+          "name": "סופרמן",
+          "type": "reps",
+          "sets": 3,
+          "reps": 10,
+          "restSec": 40,
+          "equipment": [],
+          "cues": "הרמה קטנה, צוואר ניטרלי",
+          "easier": "רגליים בלבד",
+          "harder": "החזקה 3 שניות"
+        },
+        {
+          "id": "d2-e6",
+          "ref": "ex30",
+          "name": "Bird dog",
+          "type": "reps_each_side",
+          "sets": 3,
+          "reps": 8,
+          "restSec": 40,
+          "equipment": [],
+          "cues": "ידיים ורגל מנוגדות, אגן יציב",
+          "easier": "רק רגל",
+          "harder": "עצירה 3 שניות"
+        },
+        {
+          "id": "d2-e7",
+          "ref": "ex28",
+          "name": "פלאנק צידי",
+          "type": "time_each_side",
+          "sets": 3,
+          "durationSec": 20,
+          "restSec": 30,
+          "equipment": [],
+          "cues": "אגן גבוה, כתף מעל המרפק",
+          "easier": "ברך תומכת",
+          "harder": "הרמת רגל עליונה"
+        },
+        {
+          "id": "d2-e8",
+          "ref": "ex43",
+          "name": "תנוחת ילד",
+          "type": "time",
+          "sets": 1,
+          "durationSec": 60,
+          "restSec": 0,
+          "equipment": [],
+          "cues": "נשימה עמוקה, שחרור כתפיים"
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "title": "יום 3: מעורב וקרדיו",
+      "focus": "גוף מלא, סיבולת",
+      "estMinutes": 30,
+      "exercises": [
+        {
+          "id": "d3-e1",
+          "ref": "ex35",
+          "name": "צעידה במקום",
+          "type": "time",
+          "sets": 1,
+          "durationSec": 90,
+          "restSec": 0,
+          "equipment": [],
+          "cues": "קצב עולה בהדרגה"
+        },
+        {
+          "id": "d3-e2",
+          "ref": "ex40",
+          "name": "מתיחת \"הכי גדולה בעולם\"",
+          "type": "reps_each_side",
+          "sets": 1,
+          "reps": 5,
+          "restSec": 0,
+          "equipment": [],
+          "cues": "לאנג' עמוק וסיבוב החזה"
+        },
+        {
+          "id": "d3-e3",
+          "ref": "ex38",
+          "name": "החלקה צידית (Skater)",
+          "type": "time",
+          "sets": 3,
+          "durationSec": 40,
+          "restSec": 30,
+          "equipment": [],
+          "cues": "צעד צידי רחב, נחיתה רכה",
+          "easier": "צעד בלי קפיצה",
+          "harder": "קפיצה"
+        },
+        {
+          "id": "d3-e4",
+          "ref": "ex16",
+          "name": "שכיבות סמיכה על ברכיים",
+          "type": "reps",
+          "sets": 3,
+          "reps": 10,
+          "restSec": 40,
+          "equipment": [],
+          "cues": "קו ישר מכתפיים לברכיים",
+          "easier": "שכיבות סמיכה על קיר",
+          "harder": "שכיבות סמיכה מלאות"
+        },
+        {
+          "id": "d3-e5",
+          "ref": "ex05",
+          "name": "גשר ישבן ברגל אחת",
+          "type": "reps_each_side",
+          "sets": 3,
+          "reps": 8,
+          "restSec": 40,
+          "equipment": [],
+          "cues": "אגן ישר, לא מסתובב",
+          "easier": "גשר ישבן",
+          "harder": "רגל על כיסא"
+        },
+        {
+          "id": "d3-e6",
+          "ref": "ex22",
+          "name": "Y-T-W בשכיבה על הבטן",
+          "type": "reps",
+          "sets": 3,
+          "reps": 10,
+          "restSec": 40,
+          "equipment": [],
+          "cues": "לחיצת שכמות, אגודלים למעלה",
+          "easier": "טווח קטן",
+          "harder": "החזקה 2 שניות"
+        },
+        {
+          "id": "d3-e7",
+          "ref": "ex31",
+          "name": "מטפסי הרים",
+          "type": "time",
+          "sets": 3,
+          "durationSec": 30,
+          "restSec": 30,
+          "equipment": [],
+          "cues": "ידיים מתחת לכתפיים, קצב קבוע",
+          "easier": "ידיים על שולחן",
+          "harder": "קצב מהיר"
+        },
+        {
+          "id": "d3-e8",
+          "ref": "ex42",
+          "name": "סיבוב חזה",
+          "type": "reps_each_side",
+          "sets": 1,
+          "reps": 8,
+          "restSec": 0,
+          "equipment": [],
+          "cues": "האגן יציב, הסיבוב מהחזה"
+        }
+      ]
+    }
+  ]
+}
