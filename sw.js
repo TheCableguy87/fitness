@@ -1,5 +1,5 @@
 // Cache-first Service Worker. Bump VERSION on every release.
-const VERSION = 'v1';
+const VERSION = 'v2';
 const CACHE = 'fitness-' + VERSION;
 const FILES = [
   './', 'index.html', 'manifest.json', 'css/styles.css',
