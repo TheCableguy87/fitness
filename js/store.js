@@ -12,6 +12,7 @@ export const store = {
   meta: { lastBackupAt: null, snoozeUntil: 0, lastError: null },
   session: null, // active workout / draft
   library: emptyLibrary(),
+  demos: new Map(),
   updateAvailable: false,
   saveFailed: false,
   notices: [], // load-time problems (corrupt data etc.)

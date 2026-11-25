@@ -2,6 +2,7 @@
 import { store } from '../store.js';
 import { h, btn, icon, bdi } from '../ui.js';
 import { getExplain, getRelated } from '../library.js';
+import { createDemo, getDemo } from '../demo.js';
 import { remainingSec } from '../timer.js';
 import { formatClock } from '../timer.js';
 
@@ -26,14 +27,20 @@ export function openExplain(ref) {
   const prevOverflow = document.body.style.overflow;
   document.body.style.overflow = 'hidden';
 
-  const close = () => { clearInterval(iv); ov.remove(); document.body.style.overflow = prevOverflow; };
+  let curDemo = null;
+  const close = () => { clearInterval(iv); if (curDemo) curDemo._destroy(); ov.remove(); document.body.style.overflow = prevOverflow; };
   const sheet = h('div', { class: 'sheet', role: 'dialog', 'aria-modal': 'true', 'aria-label': 'איך עושים' }, body, foot);
   const ov = h('div', { class: 'overlay' }, sheet);
 
   function draw() {
     const e = stack[stack.length - 1];
+    if (curDemo) { curDemo._destroy(); curDemo = null; }
     body.replaceChildren();
     body.append(h('h2', { class: 'ex-title' }, bdi(e.name)));
+    const spec = getDemo(store.demos, e.ref);
+    if (spec) {
+      try { curDemo = createDemo(spec); body.append(curDemo); } catch { curDemo = null; }
+    }
     const chips = [...e.muscles, ...e.equipment.map((q) => q)];
     if (chips.length) body.append(h('div', { class: 'row', style: 'flex-wrap:wrap' }, chips.map((c) => h('span', { class: 'chip' }, bdi(c)))));
     if (e.setup) body.append(section('תנוחת התחלה', h('p', {}, e.setup)));

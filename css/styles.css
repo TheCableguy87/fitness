@@ -160,3 +160,17 @@ pre.errlog { margin: 0; white-space: pre-wrap; word-break: break-word; font-size
 .banner.warn { flex-wrap: wrap; }
 .banner.warn p { flex: 1 1 calc(100% - 48px); }
 .banner.warn .row { width: 100%; justify-content: flex-end; }
+
+/* Exercise demo (how-to sheet) */
+.demo { flex: none; position: relative; background: var(--s2); border-radius: 20px; overflow: hidden; cursor: pointer; }
+.demo svg { display: block; width: 100%; aspect-ratio: 4 / 3; max-height: 240px; }
+.demo .gr { stroke: var(--line); stroke-width: 5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.demo .guide { stroke: var(--line); stroke-width: 3; stroke-dasharray: 4 7; stroke-linecap: round; }
+.demo .limb, .demo .torso, .demo .neck, .demo .bar { stroke: var(--text); fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.demo .limb { stroke-width: 6; } .demo .torso { stroke-width: 9; } .demo .neck { stroke-width: 5; } .demo .bar { stroke-width: 6; }
+.demo .far { opacity: 0.55; }
+.demo .acc { stroke: var(--accent); }
+.demo .head { fill: var(--s2); stroke: var(--text); stroke-width: 5; }
+.demo .lbl { fill: var(--text2); font-size: 40px; font-weight: 800; direction: ltr; }
+.demo-toggle { position: absolute; inset-block-end: 4px; inset-inline-end: 4px; width: 48px; height: 48px; border-radius: 16px; display: grid; place-items: center; color: var(--text2); }
+.demo-toggle:active { background: var(--s3); }

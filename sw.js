@@ -1,11 +1,11 @@
 // Cache-first Service Worker. Bump VERSION on every release.
-const VERSION = 'v2';
+const VERSION = 'v3';
 const CACHE = 'fitness-' + VERSION;
 const FILES = [
   './', 'index.html', 'manifest.json', 'css/styles.css',
   'icons/apple-touch-icon.png', 'icons/icon-192.png', 'icons/icon-512.png',
-  'data/exercises.json',
-  'js/app.js', 'js/store.js', 'js/storage.js', 'js/validate.js', 'js/timer.js', 'js/workoutState.js', 'js/library.js',
+  'data/exercises.json', 'data/demos.json',
+  'js/demo.js', 'js/app.js', 'js/store.js', 'js/storage.js', 'js/validate.js', 'js/timer.js', 'js/workoutState.js', 'js/library.js',
   'js/backup.js', 'js/draft.js', 'js/ui.js', 'js/errors.js', 'js/audio.js', 'js/wakelock.js',
   'js/views/home.js', 'js/views/day.js', 'js/views/import.js', 'js/views/workout.js', 'js/views/summary.js',
   'js/views/explain.js', 'js/views/settings.js',

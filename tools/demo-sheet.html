@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="he" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../css/styles.css"><title>demo sheet</title>
+<style>.g{display:grid;grid-template-columns:1fr 1fr;gap:6px;padding:6px}.c{font-size:12px;color:#aaa}</style></head>
+<body><div id="o" class="g"></div>
+<script type="module">
+import { loadDemos, createDemo } from '../js/demo.js';
+const q = new URLSearchParams(location.search);
+const map = await loadDemos('../data/demos.json');
+const only = q.get('ref');
+for (const [ref, d] of map) {
+  if (only && only !== ref) continue;
+  const n = d.frames.length;
+  d.frames.forEach((f, i) => {
+    const nxt = i + 1 < n ? d.ats[i + 1] : 1; const ph = q.get("mid") ? d.ats[i] + (nxt - d.ats[i]) * (d.frames[i].hold + (1 - d.frames[i].hold) * 0.5) : d.ats[i]; const el = createDemo(d); el._seek(ph);
+    const c = document.createElement('div'); c.append(el);
+    const t = document.createElement('div'); t.className = 'c'; t.textContent = ref + ' f' + i; c.append(t);
+    document.getElementById('o').append(c);
+  });
+}
+</script></body></html>

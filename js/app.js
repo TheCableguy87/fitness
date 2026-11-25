@@ -2,6 +2,7 @@
 import { store } from './store.js';
 import { installErrorHandlers, reportError } from './errors.js';
 import { loadLibrary } from './library.js';
+import { loadDemos } from './demo.js';
 import { h, btn, go } from './ui.js';
 import { homeView } from './views/home.js';
 import { dayView } from './views/day.js';
@@ -66,4 +67,5 @@ window.addEventListener('pagehide', () => store.flushDraft());
 document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') store.flushDraft(); });
 render(true);
 loadLibrary('data/exercises.json').then((lib) => { store.library = lib; render(); });
+loadDemos('data/demos.json').then((m) => { store.demos = m; });
 registerServiceWorker();
